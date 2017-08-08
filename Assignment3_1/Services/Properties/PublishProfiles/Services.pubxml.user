@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>Y:\Page1</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>06/17/2017 11:46:20</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>06/17/2017 11:46:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>06/17/2017 11:46:13</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>06/17/2017 11:46:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>06/17/2017 11:46:15</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>06/17/2017 11:46:16</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>06/17/2017 11:46:19</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>06/17/2017 11:46:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>06/17/2017 11:46:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Diagnostics.Tracing.EventSource.dll">
+      <publishTime>06/17/2017 11:46:11</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Threading.Tasks.dll">
+      <publishTime>06/17/2017 11:46:08</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Threading.Tasks.Extensions.Desktop.dll">
+      <publishTime>06/17/2017 11:46:08</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Threading.Tasks.Extensions.dll">
+      <publishTime>06/17/2017 11:46:08</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>06/17/2017 11:52:08</publishTime>
+    </File>
+    <File Include="bin/Services.dll">
+      <publishTime>06/17/2017 13:17:01</publishTime>
+    </File>
+    <File Include="bin/Services.XmlSerializers.dll">
+      <publishTime>06/17/2017 13:17:12</publishTime>
+    </File>
+    <File Include="bin/System.IO.dll">
+      <publishTime>06/17/2017 11:46:04</publishTime>
+    </File>
+    <File Include="bin/System.Runtime.dll">
+      <publishTime>06/17/2017 11:46:04</publishTime>
+    </File>
+    <File Include="bin/System.Threading.Tasks.dll">
+      <publishTime>06/17/2017 11:46:04</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>06/17/2017 11:52:09</publishTime>
+    </File>
+    <File Include="scripts/ai.0.15.0-build58334.js">
+      <publishTime>06/17/2017 11:46:21</publishTime>
+    </File>
+    <File Include="scripts/ai.0.15.0-build58334.min.js">
+      <publishTime>06/17/2017 11:46:20</publishTime>
+    </File>
+    <File Include="Service1.svc">
+      <publishTime>06/17/2017 11:45:40</publishTime>
+    </File>
+    <File Include="Web References/WeatherServiceReference/Reference.map">
+      <publishTime>06/17/2017 11:53:54</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/17/2017 15:38:38</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

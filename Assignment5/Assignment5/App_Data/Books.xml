@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<books>
+  <book>
+    <isbn>1234</isbn>
+    <title>Freakonomics</title>
+    <description>Test</description>
+  </book>
+  <book>
+    <isbn>12345</isbn>
+    <title>Freakonomics 2</title>
+    <description>Test 2</description>
+  </book>
+</books>

@@ -1,0 +1,68 @@
+c:\users\abhi\documents\visual studio 2015\Projects\Assignment4\XMLService\bin\ApplicationInsights.config
+c:\users\abhi\documents\visual studio 2015\Projects\Assignment4\XMLService\bin\XMLService.dll.config
+c:\users\abhi\documents\visual studio 2015\Projects\Assignment4\XMLService\bin\XMLService.dll
+c:\users\abhi\documents\visual studio 2015\Projects\Assignment4\XMLService\bin\XMLService.pdb
+c:\users\abhi\documents\visual studio 2015\Projects\Assignment4\XMLService\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\abhi\documents\visual studio 2015\Projects\Assignment4\XMLService\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\abhi\documents\visual studio 2015\Projects\Assignment4\XMLService\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\abhi\documents\visual studio 2015\Projects\Assignment4\XMLService\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\abhi\documents\visual studio 2015\Projects\Assignment4\XMLService\bin\Microsoft.AI.Web.dll
+c:\users\abhi\documents\visual studio 2015\Projects\Assignment4\XMLService\bin\Microsoft.AI.WindowsServer.dll
+c:\users\abhi\documents\visual studio 2015\Projects\Assignment4\XMLService\bin\Microsoft.ApplicationInsights.dll
+c:\users\abhi\documents\visual studio 2015\Projects\Assignment4\XMLService\bin\Microsoft.Diagnostics.Tracing.EventSource.dll
+c:\users\abhi\documents\visual studio 2015\Projects\Assignment4\XMLService\bin\Microsoft.Threading.Tasks.dll
+c:\users\abhi\documents\visual studio 2015\Projects\Assignment4\XMLService\bin\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+c:\users\abhi\documents\visual studio 2015\Projects\Assignment4\XMLService\bin\Microsoft.Threading.Tasks.Extensions.dll
+c:\users\abhi\documents\visual studio 2015\Projects\Assignment4\XMLService\bin\System.IO.dll
+c:\users\abhi\documents\visual studio 2015\Projects\Assignment4\XMLService\bin\System.Runtime.dll
+c:\users\abhi\documents\visual studio 2015\Projects\Assignment4\XMLService\bin\System.Threading.Tasks.dll
+c:\users\abhi\documents\visual studio 2015\Projects\Assignment4\XMLService\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\abhi\documents\visual studio 2015\Projects\Assignment4\XMLService\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\abhi\documents\visual studio 2015\Projects\Assignment4\XMLService\bin\Microsoft.AI.Web.xml
+c:\users\abhi\documents\visual studio 2015\Projects\Assignment4\XMLService\bin\Microsoft.AI.WindowsServer.xml
+c:\users\abhi\documents\visual studio 2015\Projects\Assignment4\XMLService\bin\Microsoft.ApplicationInsights.xml
+c:\users\abhi\documents\visual studio 2015\Projects\Assignment4\XMLService\bin\Microsoft.Diagnostics.Tracing.EventSource.xml
+c:\users\abhi\documents\visual studio 2015\Projects\Assignment4\XMLService\bin\Microsoft.Threading.Tasks.xml
+c:\users\abhi\documents\visual studio 2015\Projects\Assignment4\XMLService\bin\Microsoft.Threading.Tasks.Extensions.xml
+c:\users\abhi\documents\visual studio 2015\Projects\Assignment4\XMLService\bin\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+c:\users\abhi\documents\visual studio 2015\Projects\Assignment4\XMLService\bin\System.IO.xml
+c:\users\abhi\documents\visual studio 2015\Projects\Assignment4\XMLService\bin\System.Runtime.xml
+c:\users\abhi\documents\visual studio 2015\Projects\Assignment4\XMLService\bin\System.Threading.Tasks.xml
+c:\users\abhi\documents\visual studio 2015\Projects\Assignment4\XMLService\obj\Debug\XMLService.csproj.App.config
+c:\users\abhi\documents\visual studio 2015\Projects\Assignment4\XMLService\obj\Debug\XMLService.csprojResolveAssemblyReference.cache
+c:\users\abhi\documents\visual studio 2015\Projects\Assignment4\XMLService\obj\Debug\XMLService.dll
+c:\users\abhi\documents\visual studio 2015\Projects\Assignment4\XMLService\obj\Debug\XMLService.pdb
+C:\Users\Abhi\Desktop\Assignment4\Assignment4\XMLService\bin\ApplicationInsights.config
+C:\Users\Abhi\Desktop\Assignment4\Assignment4\XMLService\bin\XMLService.dll.config
+C:\Users\Abhi\Desktop\Assignment4\Assignment4\XMLService\bin\XMLService.dll
+C:\Users\Abhi\Desktop\Assignment4\Assignment4\XMLService\bin\XMLService.pdb
+C:\Users\Abhi\Desktop\Assignment4\Assignment4\XMLService\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Abhi\Desktop\Assignment4\Assignment4\XMLService\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Abhi\Desktop\Assignment4\Assignment4\XMLService\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Abhi\Desktop\Assignment4\Assignment4\XMLService\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Abhi\Desktop\Assignment4\Assignment4\XMLService\bin\Microsoft.AI.Web.dll
+C:\Users\Abhi\Desktop\Assignment4\Assignment4\XMLService\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Abhi\Desktop\Assignment4\Assignment4\XMLService\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Abhi\Desktop\Assignment4\Assignment4\XMLService\bin\Microsoft.Diagnostics.Tracing.EventSource.dll
+C:\Users\Abhi\Desktop\Assignment4\Assignment4\XMLService\bin\Microsoft.Threading.Tasks.dll
+C:\Users\Abhi\Desktop\Assignment4\Assignment4\XMLService\bin\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\Abhi\Desktop\Assignment4\Assignment4\XMLService\bin\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\Abhi\Desktop\Assignment4\Assignment4\XMLService\bin\System.IO.dll
+C:\Users\Abhi\Desktop\Assignment4\Assignment4\XMLService\bin\System.Runtime.dll
+C:\Users\Abhi\Desktop\Assignment4\Assignment4\XMLService\bin\System.Threading.Tasks.dll
+C:\Users\Abhi\Desktop\Assignment4\Assignment4\XMLService\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Abhi\Desktop\Assignment4\Assignment4\XMLService\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Abhi\Desktop\Assignment4\Assignment4\XMLService\bin\Microsoft.AI.Web.xml
+C:\Users\Abhi\Desktop\Assignment4\Assignment4\XMLService\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Abhi\Desktop\Assignment4\Assignment4\XMLService\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Abhi\Desktop\Assignment4\Assignment4\XMLService\bin\Microsoft.Diagnostics.Tracing.EventSource.xml
+C:\Users\Abhi\Desktop\Assignment4\Assignment4\XMLService\bin\Microsoft.Threading.Tasks.xml
+C:\Users\Abhi\Desktop\Assignment4\Assignment4\XMLService\bin\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\Abhi\Desktop\Assignment4\Assignment4\XMLService\bin\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\Abhi\Desktop\Assignment4\Assignment4\XMLService\bin\System.IO.xml
+C:\Users\Abhi\Desktop\Assignment4\Assignment4\XMLService\bin\System.Runtime.xml
+C:\Users\Abhi\Desktop\Assignment4\Assignment4\XMLService\bin\System.Threading.Tasks.xml
+C:\Users\Abhi\Desktop\Assignment4\Assignment4\XMLService\obj\Debug\XMLService.csproj.App.config
+C:\Users\Abhi\Desktop\Assignment4\Assignment4\XMLService\obj\Debug\XMLService.csprojResolveAssemblyReference.cache
+C:\Users\Abhi\Desktop\Assignment4\Assignment4\XMLService\obj\Debug\XMLService.dll
+C:\Users\Abhi\Desktop\Assignment4\Assignment4\XMLService\obj\Debug\XMLService.pdb

@@ -1,0 +1,6 @@
+c:\users\abhi\documents\visual studio 2015\Projects\eCommerce\eCommerce\bin\Debug\eCommerce.exe.config
+c:\users\abhi\documents\visual studio 2015\Projects\eCommerce\eCommerce\bin\Debug\eCommerce.exe
+c:\users\abhi\documents\visual studio 2015\Projects\eCommerce\eCommerce\bin\Debug\eCommerce.pdb
+c:\users\abhi\documents\visual studio 2015\Projects\eCommerce\eCommerce\obj\Debug\eCommerce.csprojResolveAssemblyReference.cache
+c:\users\abhi\documents\visual studio 2015\Projects\eCommerce\eCommerce\obj\Debug\eCommerce.exe
+c:\users\abhi\documents\visual studio 2015\Projects\eCommerce\eCommerce\obj\Debug\eCommerce.pdb

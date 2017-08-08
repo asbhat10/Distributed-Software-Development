@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://webstrar7.fulton.asu.edu/Page3/Service1.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://webstrar7.fulton.asu.edu/Page3/Service1.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://webstrar7.fulton.asu.edu/Page3/Service1.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_checkUserCredentials_InputMessage">
+    <wsdl:part name="parameters" element="tns:checkUserCredentials" />
+  </wsdl:message>
+  <wsdl:message name="IService1_checkUserCredentials_OutputMessage">
+    <wsdl:part name="parameters" element="tns:checkUserCredentialsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_checkUserCredentialsForStaff_InputMessage">
+    <wsdl:part name="parameters" element="tns:checkUserCredentialsForStaff" />
+  </wsdl:message>
+  <wsdl:message name="IService1_checkUserCredentialsForStaff_OutputMessage">
+    <wsdl:part name="parameters" element="tns:checkUserCredentialsForStaffResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_getLatLong_InputMessage">
+    <wsdl:part name="parameters" element="tns:getLatLong" />
+  </wsdl:message>
+  <wsdl:message name="IService1_getLatLong_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getLatLongResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SignUpMembers_InputMessage">
+    <wsdl:part name="parameters" element="tns:SignUpMembers" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SignUpMembers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SignUpMembersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddBooks_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddBooks" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddBooks_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddBooksResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_getAllBooks_InputMessage">
+    <wsdl:part name="parameters" element="tns:getAllBooks" />
+  </wsdl:message>
+  <wsdl:message name="IService1_getAllBooks_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getAllBooksResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_getBookDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:getBookDetails" />
+  </wsdl:message>
+  <wsdl:message name="IService1_getBookDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getBookDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_addBorrowed_InputMessage">
+    <wsdl:part name="parameters" element="tns:addBorrowed" />
+  </wsdl:message>
+  <wsdl:message name="IService1_addBorrowed_OutputMessage">
+    <wsdl:part name="parameters" element="tns:addBorrowedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_transformationMembers_InputMessage">
+    <wsdl:part name="parameters" element="tns:transformationMembers" />
+  </wsdl:message>
+  <wsdl:message name="IService1_transformationMembers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:transformationMembersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_transformationBooks_InputMessage">
+    <wsdl:part name="parameters" element="tns:transformationBooks" />
+  </wsdl:message>
+  <wsdl:message name="IService1_transformationBooks_OutputMessage">
+    <wsdl:part name="parameters" element="tns:transformationBooksResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="checkUserCredentials">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/checkUserCredentials" message="tns:IService1_checkUserCredentials_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/checkUserCredentialsResponse" message="tns:IService1_checkUserCredentials_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="checkUserCredentialsForStaff">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/checkUserCredentialsForStaff" message="tns:IService1_checkUserCredentialsForStaff_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/checkUserCredentialsForStaffResponse" message="tns:IService1_checkUserCredentialsForStaff_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getLatLong">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/getLatLong" message="tns:IService1_getLatLong_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/getLatLongResponse" message="tns:IService1_getLatLong_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SignUpMembers">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SignUpMembers" message="tns:IService1_SignUpMembers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SignUpMembersResponse" message="tns:IService1_SignUpMembers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddBooks">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AddBooks" message="tns:IService1_AddBooks_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AddBooksResponse" message="tns:IService1_AddBooks_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllBooks">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/getAllBooks" message="tns:IService1_getAllBooks_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/getAllBooksResponse" message="tns:IService1_getAllBooks_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getBookDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/getBookDetails" message="tns:IService1_getBookDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/getBookDetailsResponse" message="tns:IService1_getBookDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="addBorrowed">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/addBorrowed" message="tns:IService1_addBorrowed_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/addBorrowedResponse" message="tns:IService1_addBorrowed_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="transformationMembers">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/transformationMembers" message="tns:IService1_transformationMembers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/transformationMembersResponse" message="tns:IService1_transformationMembers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="transformationBooks">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/transformationBooks" message="tns:IService1_transformationBooks_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/transformationBooksResponse" message="tns:IService1_transformationBooks_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="checkUserCredentials">
+      <soap:operation soapAction="http://tempuri.org/IService1/checkUserCredentials" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkUserCredentialsForStaff">
+      <soap:operation soapAction="http://tempuri.org/IService1/checkUserCredentialsForStaff" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getLatLong">
+      <soap:operation soapAction="http://tempuri.org/IService1/getLatLong" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SignUpMembers">
+      <soap:operation soapAction="http://tempuri.org/IService1/SignUpMembers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddBooks">
+      <soap:operation soapAction="http://tempuri.org/IService1/AddBooks" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllBooks">
+      <soap:operation soapAction="http://tempuri.org/IService1/getAllBooks" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getBookDetails">
+      <soap:operation soapAction="http://tempuri.org/IService1/getBookDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addBorrowed">
+      <soap:operation soapAction="http://tempuri.org/IService1/addBorrowed" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="transformationMembers">
+      <soap:operation soapAction="http://tempuri.org/IService1/transformationMembers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="transformationBooks">
+      <soap:operation soapAction="http://tempuri.org/IService1/transformationBooks" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://webstrar7.fulton.asu.edu/Page3/Service1.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

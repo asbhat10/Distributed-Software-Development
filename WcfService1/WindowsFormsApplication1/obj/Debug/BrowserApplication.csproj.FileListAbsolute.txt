@@ -1,0 +1,9 @@
+C:\Users\Abhi\documents\visual studio 2015\Projects\WcfService1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Abhi\documents\visual studio 2015\Projects\WcfService1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Abhi\documents\visual studio 2015\Projects\WcfService1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Abhi\documents\visual studio 2015\Projects\WcfService1\WindowsFormsApplication1\obj\Debug\BrowserApplication.csprojResolveAssemblyReference.cache
+C:\Users\Abhi\documents\visual studio 2015\Projects\WcfService1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Abhi\documents\visual studio 2015\Projects\WcfService1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Abhi\documents\visual studio 2015\Projects\WcfService1\WindowsFormsApplication1\obj\Debug\BrowserApplication.csproj.GenerateResource.Cache
+C:\Users\Abhi\documents\visual studio 2015\Projects\WcfService1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Abhi\documents\visual studio 2015\Projects\WcfService1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

@@ -1,0 +1,9 @@
+C:\Users\Abhi\documents\visual studio 2015\Projects\WcfService1\TemperatureApplication\bin\Debug\TemperatureApplication.exe.config
+C:\Users\Abhi\documents\visual studio 2015\Projects\WcfService1\TemperatureApplication\bin\Debug\TemperatureApplication.exe
+C:\Users\Abhi\documents\visual studio 2015\Projects\WcfService1\TemperatureApplication\bin\Debug\TemperatureApplication.pdb
+C:\Users\Abhi\documents\visual studio 2015\Projects\WcfService1\TemperatureApplication\obj\Debug\TemperatureApplication.csprojResolveAssemblyReference.cache
+C:\Users\Abhi\documents\visual studio 2015\Projects\WcfService1\TemperatureApplication\obj\Debug\TemperatureApplication.Form1.resources
+C:\Users\Abhi\documents\visual studio 2015\Projects\WcfService1\TemperatureApplication\obj\Debug\TemperatureApplication.Properties.Resources.resources
+C:\Users\Abhi\documents\visual studio 2015\Projects\WcfService1\TemperatureApplication\obj\Debug\TemperatureApplication.csproj.GenerateResource.Cache
+C:\Users\Abhi\documents\visual studio 2015\Projects\WcfService1\TemperatureApplication\obj\Debug\TemperatureApplication.exe
+C:\Users\Abhi\documents\visual studio 2015\Projects\WcfService1\TemperatureApplication\obj\Debug\TemperatureApplication.pdb

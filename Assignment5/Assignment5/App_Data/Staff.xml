@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <name>Keanu</name>
+    <password>A0tfukki3yc=</password>
+    <id>staff1</id>
+	<role>staff</role>
+  </user>
+  <user>
+    <name>Denzel</name>
+    <password>A0tfukki3yc=</password>
+    <id>staff2</id>
+	<role>staff</role>
+  </user>
+  <user>
+    <name>Tom</name>
+    <password>A0tfukki3yc=</password>
+    <id>admin1</id>
+	<role>admin</role>
+  </user>
+  <user>
+    <name>Al</name>
+    <password>A0tfukki3yc=</password>
+    <id>admin2</id>
+	<role>admin</role>
+  </user>
+</users>

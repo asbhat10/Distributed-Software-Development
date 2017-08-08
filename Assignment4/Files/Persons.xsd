@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:simpleType name="CellType">  
+		<xs:restriction base="xs:long">
+			<xs:pattern value="\d{10}" />
+		</xs:restriction> 
+	</xs:simpleType>
+    <xs:element name="Persons">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Person" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:all>
+                            <xs:element name="Name" minOccurs="1" maxOccurs="1">
+                                <xs:complexType>
+                                    <xs:all>
+                                        <xs:element name="First" type="xs:string" minOccurs="1" maxOccurs="1"></xs:element>
+                                        <xs:element name="Last" type="xs:string" minOccurs="1" maxOccurs="1"></xs:element>
+                                    </xs:all>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Credential" minOccurs="1" maxOccurs="1">
+                                <xs:complexType>
+                                    <xs:all>
+                                        <xs:element name="Id" type="xs:string" minOccurs="1" maxOccurs="1"></xs:element>
+                                        <xs:element name="Password" minOccurs="1" maxOccurs="1">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute name="Encryption" type="xs:string" use="required" />
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:all>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Phone" minOccurs="1" maxOccurs="1">
+                                <xs:complexType>
+                                    <xs:all>
+                                        <xs:element name="Work" minOccurs="1" maxOccurs="1">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:long">
+                                                    <xs:pattern value="\d{10}" />
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="Cell" minOccurs="1" maxOccurs="1">
+											<xs:complexType>  
+												<xs:simpleContent>  
+													<xs:extension base="CellType">  
+														<xs:attribute name="Provider" type="xs:string" use="optional" />
+													</xs:extension>  
+												</xs:simpleContent>  
+											</xs:complexType>  
+										</xs:element>
+                                    </xs:all>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Category" minOccurs="1" maxOccurs="1">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="Family" />
+                                        <xs:enumeration value="Friend" />
+                                        <xs:enumeration value="Work" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                        </xs:all>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Persons>
+    <Person>
+        <Name>
+            <First>John</First>
+            <Last>Doe</Last>
+        </Name>
+        <Credential>
+			<Password Encryption="yes">xyz</Password>
+            <Id>jdoe</Id>
+        </Credential>
+        <Phone>
+            <Work>4809650000</Work>
+            <Cell Provider="TMobile">4801234567</Cell>
+        </Phone>
+        <Category>Friend</Category>
+    </Person>
+    <Person>
+        <Name>
+            <First>Tom</First>
+            <Last>Hanks</Last>
+        </Name>
+        <Credential>
+            <Id>thanks</Id>
+            <Password Encryption="no">fgump</Password>
+        </Credential>
+        <Phone>
+            <Work>4809650001</Work>
+            <Cell Provider="ATT">4801234561</Cell>
+        </Phone>
+        <Category>Family</Category>
+    </Person>
+    <Person>
+        <Name>
+            <First>Gal</First>
+            <Last>Gadot</Last>
+        </Name>
+        <Credential>
+            <Id>ggadot</Id>
+            <Password Encryption="yes">wonder</Password>
+        </Credential>
+        <Phone>
+            <Work>4809500092</Work>
+            <Cell Provider="ATT">4801234531</Cell>
+        </Phone>
+        <Category>Friend</Category>
+    </Person>
+    <Person>
+        <Name>
+            <First>Julia</First>
+            <Last>Roberts</Last>
+        </Name>
+        <Credential>
+            <Id>jroberts</Id>
+            <Password Encryption="yes">erin</Password>
+        </Credential>
+        <Phone>
+            <Work>4809650003</Work>
+            <Cell>4801232331</Cell>
+        </Phone>
+        <Category>Friend</Category>
+    </Person>
+    <Person>
+        <Name>
+            <First>Emma</First>
+            <Last>Watson</Last>
+        </Name>
+        <Credential>
+            <Id>ewatson</Id>
+            <Password Encryption="no">hermione</Password>
+        </Credential>
+        <Phone>
+            <Work>4809650004</Work>
+            <Cell>4801432331</Cell>
+        </Phone>
+        <Category>Friend</Category>
+    </Person>
+    <Person>
+        <Name>
+            <First>Emma</First>
+            <Last>stone</Last>
+        </Name>
+        <Credential>
+            <Id>estone</Id>
+            <Password Encryption="yes">lala</Password>
+        </Credential>
+        <Phone>
+            <Work>4809650005</Work>
+            <Cell Provider="Sprint">4801232331</Cell>
+        </Phone>
+        <Category>Friend</Category>
+    </Person>
+    <Person>
+        <Name>
+            <First>Johnny</First>
+            <Last>Depp</Last>
+        </Name>
+        <Credential>
+            <Id>jdepp</Id>
+            <Password Encryption="yes">pirate</Password>
+        </Credential>
+        <Phone>
+            <Work>4809650006</Work>
+            <Cell Provider="Sprint">4801223431</Cell>
+        </Phone>
+        <Category>Family</Category>
+    </Person>
+    <Person>
+        <Name>
+            <First>Charlize</First>
+            <Last>Theron</Last>
+        </Name>
+        <Credential>
+            <Id>ctheron</Id>
+            <Password Encryption="yes">madmax</Password>
+        </Credential>
+        <Phone>
+            <Work>4809650007</Work>
+            <Cell Provider="Verizon">4801231431</Cell>
+        </Phone>
+        <Category>Family</Category>
+    </Person>
+    <Person>
+        <Name>
+            <First>Chris</First>
+            <Last>Nolan</Last>
+        </Name>
+        <Credential>
+            <Id>cnolan</Id>
+            <Password Encryption="yes">memento</Password>
+        </Credential>
+        <Phone>
+            <Work>4809650008</Work>
+            <Cell Provider="CenturyLink">4873831431</Cell>
+        </Phone>
+        <Category>Family</Category>
+    </Person>
+    <Person>
+        <Name>
+            <First>Quentin</First>
+            <Last>Tarantino</Last>
+        </Name>
+        <Credential>
+            <Id>qtarantino</Id>
+            <Password Encryption="no">reservoir</Password>
+        </Credential>
+        <Phone>
+            <Work>4809650009</Work>
+            <Cell Provider="CenturyLink">4873812531</Cell>
+        </Phone>
+        <Category>Family</Category>
+    </Person>
+    <Person>
+        <Name>
+            <First>Sam</First>
+            <Last>Jackson</Last>
+        </Name>
+        <Credential>
+            <Id>sjackson</Id>
+            <Password Encryption="yes">pulp</Password>
+        </Credential>
+        <Phone>
+            <Work>4809650010</Work>
+            <Cell Provider="Verizon">4872463131</Cell>
+        </Phone>
+        <Category>Work</Category>
+    </Person>
+    <Person>
+        <Name>
+            <First>Matt</First>
+            <Last>Damon</Last>
+        </Name>
+        <Credential>
+            <Id>mdamon</Id>
+            <Password Encryption="no">hunting</Password>
+        </Credential>
+        <Phone>
+            <Work>4809650011</Work>
+            <Cell Provider="Verizon">4823424631</Cell>
+        </Phone>
+        <Category>Work</Category>
+    </Person>
+    <Person>
+        <Name>
+            <First>Saoirse</First>
+            <Last>Ronan</Last>
+        </Name>
+        <Credential>
+            <Id>sronan</Id>
+            <Password Encryption="no">brooklyn</Password>
+        </Credential>
+        <Phone>
+            <Work>4809650013</Work>
+            <Cell>4823422231</Cell>
+        </Phone>
+        <Category>Work</Category>
+    </Person>
+    <Person>
+        <Name>
+            <First>Tyrion</First>
+            <Last>Lannister</Last>
+        </Name>
+        <Credential>
+            <Id>tlann</Id>
+            <Password Encryption="yes">roar</Password>
+        </Credential>
+        <Phone>
+            <Work>4809650014</Work>
+            <Cell>4234263421</Cell>
+        </Phone>
+        <Category>Work</Category>
+    </Person>
+    <Person>
+        <Name>
+            <First>Kate</First>
+            <Last>Winslet</Last>
+        </Name>
+        <Credential>
+            <Id>kwins</Id>
+            <Password Encryption="yes">titanic</Password>
+        </Credential>
+        <Phone>
+            <Work>4809650015</Work>
+            <Cell>4242563213</Cell>
+        </Phone>
+        <Category>Work</Category>
+    </Person>
+</Persons>
